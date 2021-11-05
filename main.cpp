@@ -211,7 +211,8 @@ string ejercicio3(char**matriz, char inicio, char destino) {
 	} else if (x1=x2) {
 		ruta;
 	}
-
+	delete[] pointer1;
+	delete[] pointer2;
 
 	return ruta;
 
